@@ -1,3 +1,15 @@
 {
-  "item.floatingheaditems.example_item": "Example Item"
+  "key.floatingheaditems.category": "Floating Head Items",
+  "key.floatingheaditems.open_gui": "Open Cosmetics Selector",
+  "gui.floatingheaditems.title": "Floating Head Items",
+  "gui.floatingheaditems.search": "Search items...",
+  "gui.floatingheaditems.clear": "Remove Cosmetic",
+  "gui.floatingheaditems.speed": "Speed: %s",
+  "gui.floatingheaditems.size": "Size: %s",
+  "gui.floatingheaditems.height": "Height: %s",
+  "gui.floatingheaditems.bobbing_on": "Bobbing: ON",
+  "gui.floatingheaditems.bobbing_off": "Bobbing: OFF",
+  "gui.floatingheaditems.others_on": "Others: ON",
+  "gui.floatingheaditems.others_off": "Others: OFF",
+  "gui.floatingheaditems.done": "Done"
 }

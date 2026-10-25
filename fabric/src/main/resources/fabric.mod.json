@@ -5,18 +5,20 @@
   "name": "Floating Head Items",
   "description": "Display any item or block above your head with a smooth floating and spinning animation. Purely cosmetic!",
   "authors": [
-    "Me!"
+    "Stylobow"
   ],
   "contact": {
-    "homepage": "https://fabricmc.net/",
-    "sources": "https://github.com/FabricMC/fabric-example-mod"
+    "homepage": ""
   },
   "license": "MIT License",
   "icon": "assets/floatingheaditems/icon.png",
   "environment": "*",
   "entrypoints": {
     "main": [
-      "fr.stylobow.floatingheaditems.fabric.ExampleModFabric"
+      "fr.stylobow.floatingheaditems.fabric.FloatingHeadItemsFabric"
+    ],
+    "client": [
+      "fr.stylobow.floatingheaditems.fabric.client.FloatingHeadItemsFabricClient"
     ]
   },
   "mixins": [

@@ -1,0 +1,35 @@
+modLoader = "javafml"
+loaderVersion = "[47,)"
+#issueTrackerURL = ""
+license = "MIT License"
+
+[[mods]]
+modId = "floatingheaditems"
+version = "${version}"
+displayName = "Floating Head Items"
+authors = "Stylobow"
+description = '''
+Display any item or block above your head with a smooth floating and spinning animation. Purely cosmetic!
+'''
+#logoFile = ""
+
+[[dependencies.floatingheaditems]]
+modId = "forge"
+mandatory = true
+versionRange = "[47,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.floatingheaditems]]
+modId = "minecraft"
+mandatory = true
+versionRange = "[1.20.1,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.floatingheaditems]]
+modId = "architectury"
+mandatory = true
+versionRange = "[9.1.12,)"
+ordering = "AFTER"
+side = "BOTH"
